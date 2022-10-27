@@ -1,0 +1,118 @@
+/*header*/
+body {
+  background-color:white;
+  width: 80%;
+  margin: 0 auto;
+  background-color:antiquewhite;
+}
+.center {
+  text-align: center;
+}
+.head h1 {
+  padding: 40px;
+  margin: 20px 0 20px;
+}
+.nav li {
+  
+  margin: 0px 5px 0px;
+  padding: 10px 10px 10px;
+  background-color: rgb(224, 226, 187);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+
+}
+
+.nav li.main_menu {
+  display: inline;
+}
+
+
+.nav li.mobile_menu {
+  display: none;
+}
+
+
+.nav li:hover {
+  background-color: rgb(180, 183, 130);
+
+}
+
+.nav li:active {
+  background-color: rgb(104, 106, 70);
+
+}
+
+.head li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.bold {
+  font-weight: bold;
+}
+/*header*/
+/*desired_position*/
+#desired_position span {
+  margin: 0px 10px 0px 10px
+}
+/*desired_position*/
+/*Work expirience*/
+#work_experience span {
+  display: block;
+}
+
+button {
+  margin: 0px 5px 0px;
+  padding: 10px 10px 10px;
+  background-color: rgb(224, 226, 187);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: rgb(180, 183, 130);
+
+}
+
+button:active {
+  background-color: rgb(104, 106, 70);
+
+}
+
+.work_block {
+  margin: 20px 0px
+}
+/*Work expirience*/
+
+/* .nav li:after {
+  content: "|";
+  padding-left: 20px;
+  
+} */
+
+@media screen and (max-width: 900px) {
+  
+  .nav li.main_menu {
+    display: none;
+    margin: 0px 5px 0px;
+    padding: 10px 10px 10px;
+    background-color: rgb(224, 226, 187);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+  
+  }
+  
+  .nav li.mobile_menu {
+    display: block;
+    content: "㆔"
+  }
+}
+
